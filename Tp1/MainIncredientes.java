@@ -15,10 +15,5 @@ public class MainIncredientes {
         despensa.getIncredientes("Harina", 300);
         despensa.getIncredientes("Azúcar", 200);
 
-        // Muestro como queda la despensa despues
-        System.out.println("Despensa actualizada:");
-        for (Incredientes incrediente : despensa.getIncredientes() {
-            if (despensa.incredientes != null) System.out.println(despensa.incredientes);
-        }
     }
 }
