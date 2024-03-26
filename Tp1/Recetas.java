@@ -1,7 +1,7 @@
 public class Recetas {
-        private int tiempoCoccion;
-        private Incredientes[] incredientes;
-        private String preparacion;
+        protected int tiempoCoccion;
+        protected Incredientes[] incredientes;
+        protected String preparacion;
 
         public Recetas(int tiempoCoccion, Incredientes[] incredientes, String preparacion) {
             this.tiempoCoccion = tiempoCoccion;

@@ -1,6 +1,7 @@
 public class Despensa {
-    public Incredientes[] incredientes;
-    protected int numIncredientes;
+    private Incredientes[] incredientes;
+    private int numIncredientes;
+    private String nombre;
 
     public Despensa(int capacidad) {
         incredientes = new Incredientes[capacidad];
